@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portão Automático - Animação</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f3f4f6;
+      font-family: Arial, sans-serif;
+    }
+
+    .gate-container {
+      position: relative;
+      width: 300px;
+      height: 150px;
+      border: 4px solid #333;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .gate {
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      background-color: #555;
+      transition: transform 1.5s ease-in-out;
+    }
+
+    .gate.left {
+      left: 0;
+      transform-origin: left center;
+    }
+
+    .gate.right {
+      right: 0;
+      transform-origin: right center;
+    }
+
+    .controls {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="gate-container">
+    <div class="gate left"></div>
+    <div class="gate right"></div>
+  </div>
+  <div class="controls">
+    <button onclick="openGate()">Abrir Portão</button>
+    <button onclick="closeGate()">Fechar Portão</button>
+  </div>
+
+  <script>
+    const leftGate = document.querySelector('.gate.left');
+    const rightGate = document.querySelector('.gate.right');
+
+    function openGate() {
+      leftGate.style.transform = 'rotateY(-90deg)';
+      rightGate.style.transform = 'rotateY(90deg)';
+    }
+
+    function closeGate() {
+      leftGate.style.transform = 'rotateY(0)';
+      rightGate.style.transform = 'rotateY(0)';
+    }
+  </script>
+</body>
+</html>
