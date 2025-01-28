@@ -1,7 +1,10 @@
 # :sparkles:🚪 Projeto: Portão Automático IoT
 
-Este projeto implementa um portão automático utilizando ESP32, Node-RED e Tasmota, integrados via protocolo MQTT. 
-Com ele, é possível controlar remotamente a abertura e o fechamento do portão de maneira eficiente e moderna.✨
+Durante a faculdade, desenvolvi um projeto de automação de portão utilizando tecnologias de Internet das Coisas (IoT).
+O sistema é composto por um portão automatizado controlado via Tasmota e Node-Red, que possibilita o controle remoto de 
+abertura e fechamento do portão diretamente pelo smartphone. A solução integra sensores e dispositivos inteligentes, 
+permitindo monitoramento em tempo real e garantindo maior conveniência e segurança. O projeto foi desenvolvido com foco 
+na praticidade e na eficiência da automação residencial, utilizando protocolos e plataformas populares na área de IoT. ✨
 
 🛠 Principais Tecnologias:
 
