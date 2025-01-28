@@ -11,18 +11,11 @@ Com ele, é possível controlar remotamente a abertura e o fechamento do portão
 * Arduino IDE
 
 ---
+🚀 Demonstração do Protótipo
 
-🚀 Demonstração Visual
-
-Para ilustrar o funcionamento do portão automático, fiz uma animação simples com HTML, CSS e JavaScript. 
-Nela, é possível ver o movimento de abertura e fechamento do portão ao clicar em botões de controle.
-
-💡 Destaques da Animação:
-
-Simulação realista do movimento do portão.
-Controles intuitivos de "Abrir" e "Fechar".
-Código leve e fácil de adaptar ao projeto real.
-
-Teste a animação no navegador para visualizar a dinâmica do portão! 🚪✨
+Neste protótipo, mostramos o controle do portão utilizando Tasmota e Node-Red. Com a integração dessas tecnologias, 
+é possível monitorar e controlar a abertura e o fechamento do portão em tempo real, tudo feito de forma simples 
+e prática pelo seu smartphone. A solução oferece automação, segurança e conveniência, 
+permitindo que você tenha controle total do acesso diretamente na palma da sua mão. 🚪✨
 
 https://github.com/user-attachments/assets/669ce197-21dc-4024-ab25-79cce0db4d57
