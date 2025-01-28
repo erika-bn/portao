@@ -24,3 +24,5 @@ Controles intuitivos de "Abrir" e "Fechar".
 Código leve e fácil de adaptar ao projeto real.
 
 Teste a animação no navegador para visualizar a dinâmica do portão! 🚪✨
+
+https://github.com/user-attachments/assets/669ce197-21dc-4024-ab25-79cce0db4d57
